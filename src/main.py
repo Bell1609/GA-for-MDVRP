@@ -17,8 +17,8 @@ if __name__ == '__main__':
 
     #input file: test.txt #output file: output.csv
     # Đảm bảo rằng có đủ tham số dòng lệnh, nếu không thì sử dụng giá trị mặc định
-    input_file = sys.argv[1] if len(sys.argv) > 1 else 'test.txt'
-    output_csv = sys.argv[2] if len(sys.argv) > 2 else 'output.csv'
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/problems/2'
+    output_csv = sys.argv[2] if len(sys.argv) > 2 else 'src/output.csv'
 
     trainer.load_problem(input_file)
     trainer.initialize()
